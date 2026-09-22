@@ -1,0 +1,52 @@
+# =========================
+# Frontend - React / Vite
+# =========================
+scholarship-frontend/node_modules/
+scholarship-frontend/dist/
+scholarship-frontend/.env
+scholarship-frontend/.env.local
+scholarship-frontend/.env.*.local
+
+# =========================
+# Backend - Python
+# =========================
+scholarship-management-backend/.venv/
+scholarship-management-backend/venv/
+scholarship-management-backend/env/
+scholarship-management-backend/__pycache__/
+scholarship-management-backend/**/*.pyc
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Python
+# =========================
+*.pyc
+__pycache__/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# User uploaded files
+scholarship-management-backend/uploads/
+scholarship-management-backend/application_1.pdf

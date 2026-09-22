@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fdfbf7;
+  color: #2b2625;
+  font-family: "Inter", sans-serif;
+}
+
+.homepage {
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+.header {
+  background: #14342b;
+  color: #f6e8c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-bottom: 1px solid rgba(246, 232, 195, 0.15);
+}
+
+.header h2 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  color: #f6e8c3;
+}
+
+.nav-btn {
+  margin-left: 10px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #f6e8c3;
+  background: transparent;
+  color: #f6e8c3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #f6e8c3;
+  color: #14342b;
+}
+
+/* HERO */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.hero-image {
+  width: 280px;
+  height: auto;
+}
+
+.hero-center {
+  text-align: center;
+  max-width: 600px;
+}
+
+.hero-center h1 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.hero-center p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #5f5754;
+  margin-bottom: 25px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search-container input {
+  width: 350px;
+  padding: 12px;
+  border: 1px solid #eae5db;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  background: white;
+}
+
+.search-container button {
+  background: #c2593f;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.view-btn {
+  background: #c2593f;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background: #a94934;
+}
+
+/* FEATURES */
+
+.feature-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 30px;
+}
+
+.feature-card {
+  width: 320px;
+  background: white;
+  border: 1px solid #eae5db;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.feature-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.feature-card h3 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+}
+
+.feature-card p {
+  margin-top: 6px;
+  color: #6a625e;
+}
+
+/* STATISTICS */
+
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 50px 30px;
+}
+
+.stat-box {
+  width: 260px;
+  background: white;
+  border: 1px solid #eae5db;
+  border-radius: 14px;
+  padding: 25px;
+  text-align: center;
+}
+
+.stat-box h2 {
+  margin: 0;
+  font-size: 42px;
+  color: #c2593f;
+  font-family: "Merriweather", serif;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  color: #6a625e;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-wrapper {
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial {
+  flex: 1;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  background: #14342b;
+  color: white;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+.testimonial img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial p {
+  margin: 0;
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 6px;
+  color: #d8d0c2;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #14342b;
+  color: #f6e8c3;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #f6e8c3;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .feature-row,
+  .stats-section,
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card,
+  .stat-box,
+  .testimonial {
+    width: 90%;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.latest-scholarships {
+  padding: 50px;
+  text-align: center;
+}
+
+.latest-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.latest-card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.latest-card button {
+  margin-top: 10px;
+}
